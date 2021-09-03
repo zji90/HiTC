@@ -56,7 +56,7 @@ plottingfunc <- function(x, y, z, show.zero=FALSE, col, ...){
       #col <- c(col.zero, col)
       z <- as.matrix(z)
     }
-    image(x, y, z, useRaster = TRUE, col=col, ...)
+    image(x, y, z, useRaster = FALSE, col=col, ...)
 }
 
 
